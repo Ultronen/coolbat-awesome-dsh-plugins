@@ -6037,10 +6037,10 @@
       "package": "dsh-archived-chats",
       "category": "UI & Workspace",
       "status": "reviewed",
-      "summaryEn": "Manage archived chats with search, preview, restore, workspace bulk archiving, ZIP import/export, and a Recycle Bin.",
-      "summaryZh": "管理已归档会话，支持搜索、预览、恢复、按工作区批量归档、ZIP 导入导出和回收站管理。",
+      "summaryEn": "Manage archived and unarchived chats with search, previews, tags and notes, workspace archiving, ZIP backups, selected actions, a Recycle Bin, storage and retention, origins and branches, and automatic residual chat checks.",
+      "summaryZh": "管理已归档与未归档会话，支持搜索、预览、标签备注、工作区归档、ZIP 备份、选择操作、回收站恢复、空间与保留策略、来源分支和自动残留会话检查。",
       "branch": "main",
-      "commit": "f519985a4bc7add41602e35931582dde60ea8e53",
+      "commit": "ce6df374da649eae306b9a7a5b73d1f3335ce7c9",
       "manifest": "package.json",
       "patch": "cordis.patch.yml",
       "repoLicense": "MIT",
@@ -6055,8 +6055,8 @@
         "zip-import-export",
         "external-network"
       ],
-      "noteEn": "Version 1.4.1 manifest, patch, licenses, and install identity checked at the pinned commit. dsh.engines.dsh declares a host range; runtime compatibility remains untested. lib/about.js checks public npm version metadata with a bodyless GET. Plugin capabilities were inspected statically, not executed.",
-      "noteZh": "已按固定提交静态核对 1.4.1 的 manifest、patch、许可证与安装身份。dsh.engines.dsh 声明宿主版本范围，运行时兼容性仍未实测。lib/about.js 使用无请求体的 GET 检查公开 npm 版本元数据。插件能力仅经静态核对，未执行。"
+      "noteEn": "Version 1.5.2 manifest, patch, licenses, install identity, and user-facing capabilities checked at the pinned release commit. dsh.engines.dsh declares a host range; this directory does not certify runtime compatibility. lib/about.js checks public npm version metadata with a bodyless GET. This evidence refresh did not execute the plugin.",
+      "noteZh": "已按 1.5.2 固定发布提交静态核对 manifest、patch、许可证、安装身份与用户可见功能。dsh.engines.dsh 声明宿主范围，本目录不认证运行时兼容性。lib/about.js 使用无请求体的 GET 检查公开 npm 版本元数据。本次证据更新未执行插件。"
     },
     {
       "id": "ustc-xef2-dsh-llm-ustc",
